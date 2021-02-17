@@ -16,7 +16,7 @@ global fb
 bot = telebot.TeleBot(config.TOKEN)
 db = sqlite3.connect('server.db', check_same_thread = False)
 sql = db.cursor()
-fb = firebase.FirebaseApplication('https://mamba-reactions-db.firebaseio.com/', None)
+fb = firebase.FirebaseApplication('URL_TO_FIREBASE_DATABASE', None)
 
 sql.execute("""CREATE TABLE IF NOT EXISTS admins (
 	username TEXT,
