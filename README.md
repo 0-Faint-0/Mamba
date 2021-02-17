@@ -1,2 +1,2 @@
 # Mamba
-Mamba Memes tgbot code
+Mamba Memes telegram bot.
